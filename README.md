@@ -160,7 +160,7 @@ Proyecto de **Data Engineering (nivel junior)** en Databricks que ingiere datos 
 ![Job completo](images/job-completo.png)
 ![Job ejecutado exitosamente](images/JOB-ejecutado.png)
 
-## Notas y mejoras futuras (portfolio)
+## Notas y mejoras futuras 
 - Actualmente varias escrituras usan `mode("overwrite")`. Próximo paso: incrementalidad por `date` (MERGE / overwrite por partición).
 - Agregar auditoría por corrida (tabla `etl_audit_runs`) + reglas básicas de data quality.
 - Reemplazar API key por Databricks Secrets (Secret Scope) y usar HTTPS.
