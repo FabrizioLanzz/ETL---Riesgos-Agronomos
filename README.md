@@ -162,6 +162,6 @@ Proyecto de **Data Engineering (nivel junior)** en Databricks que ingiere datos 
 ---
 
 ## Autor
-- Nombre Apellido Lanzetti Fabrizio
+- Nombre y apellido: Lanzetti Fabrizio
 - LinkedIn: www.linkedin.com/in/fabrizio-lanzetti-751116339
 
