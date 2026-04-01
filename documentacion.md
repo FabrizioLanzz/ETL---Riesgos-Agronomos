@@ -46,9 +46,9 @@ Resumen diario histórico por ciudad, con métricas agronómicas.
 
 * `frost_risk`:
 
-  * 🔴 Alto → `mintemp_c < 2` y `maxwind_kph < 15`
-  * 🟡 Moderado → `mintemp_c < 2`
-  * 🟢 Bajo → resto
+  *  Alto → `mintemp_c < 2` y `maxwind_kph < 15`
+  *  Moderado → `mintemp_c < 2`
+  *  Bajo → resto
 
 * `dry_day = (totalprecip_mm == 0)`
 
@@ -87,9 +87,9 @@ Pronóstico diario con análisis de siembra.
 
 * `sowing_window`:
 
-  * 🟢 Óptimo → humedad > 60 y lluvia < 30 y precip < 10
-  * 🟡 Marginal → humedad > 50 y lluvia < 50
-  * 🔴 No apto → resto
+  *  Óptimo → humedad > 60 y lluvia < 30 y precip < 10
+  *  Marginal → humedad > 50 y lluvia < 50
+  *  No apto → resto
 
 ---
 
@@ -154,9 +154,9 @@ fungal_hours = sum(humidity > 80 AND temp_c BETWEEN 15 AND 25)
 
 ###  storm_risk
 
-* 🔴 Alto → precip > 10 y viento > 40
-* 🟡 Moderado → precip > 5 y viento > 30
-* 🟢 Bajo → resto
+*  Alto → precip > 10 y viento > 40
+*  Moderado → precip > 5 y viento > 30
+*  Bajo → resto
 
 ---
 
@@ -201,13 +201,13 @@ ORDER BY date DESC;
 
 Actualmente:
 
-* Se calcula ✔️
-* No se guarda ❌
+* Se calcula 
+* No se guarda 
 
 ### Opciones:
 
-* ✔️ Agregarlo a `agricultural_risk_metrics`
-* ✔️ Crear tabla nueva: `hourly_aggregated_risks`
+*  Agregarlo a `agricultural_risk_metrics`
+*  Crear tabla nueva: `hourly_aggregated_risks`
 
 ---
 
