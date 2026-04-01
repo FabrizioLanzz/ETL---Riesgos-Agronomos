@@ -12,6 +12,9 @@ Proyecto de **Data Engineering (nivel junior)** en Databricks que ingiere datos 
 ---
 
 ## Arquitectura (Medallion)
+![Flujo ETL sin fondo](images/Flujo-ETL-excalidrea-sinfondo.png)
+
+
 ### Bronze (Raw JSON)
 - **Qué es**: datos crudos sin transformar, enriquecidos con metadata.
 - **Fuente**: WeatherAPI
@@ -153,6 +156,9 @@ Proyecto de **Data Engineering (nivel junior)** en Databricks que ingiere datos 
 - Lista de ciudades: definida en el notebook Bronze y normalizada a `snake_case` (sin tildes).
 
 ---
+## Captura de pantalla del JOB de databricks y su ejecución exitosa.
+![Job completo](images/job-completo.png)
+![Job ejecutado exitosamente](images/JOB-ejecutado.png)
 
 ## Notas y mejoras futuras (portfolio)
 - Actualmente varias escrituras usan `mode("overwrite")`. Próximo paso: incrementalidad por `date` (MERGE / overwrite por partición).
